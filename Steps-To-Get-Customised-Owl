@@ -1,0 +1,30 @@
+Do follow the Steps To Get Customised Carousel - :)
+	1- We need to install the dependency or library of owl-carousel in our project and for that library we need jquery and owl-carousel. 
+		Step 1.1 - Install Script loader if you dont have
+		run this command in your Cmd window on a specified path.
+			"npm install script-loader"
+
+		Step 1.2 - To install this owl-carousel library.
+			"npm install ngx-owl-carousel --save"
+		
+		Step 1.3 - Specified import in your app.module.ts
+			"import { OwlModule } from 'ngx-owl-carousel';"
+
+		Step 1.4 - Do Specify the module in imports array
+			"OwlModule",
+
+		Step 1.5 - Open angular.json file and Specify the path in style array and js array
+			""styles": [
+				    "./node_modules/owl.carousel/dist/assets/owl.carousel.css",
+				    "./node_modules/owl.carousel/dist/assets/owl.theme.default.css"
+					]"
+
+			 "scripts": [
+	              "./node_modules/jquery/dist/jquery.slim.min.js",
+	              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+	              "./node_modules/jquery/dist/jquery.js",
+	              "./node_modules/owl.carousel/dist/owl.carousel.js",
+	            	]	
+
+		Step 1.6 - 	Copy the code as defined by file name
+			
